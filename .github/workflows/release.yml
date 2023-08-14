@@ -27,6 +27,4 @@ jobs:
           github_token: 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
           goos: ${{ matrix.goos }}
           goarch: ${{ matrix.goarch }}
-          goversion: "https://dl.google.com/go/go1.13.1.linux-amd64.tar.gz"
           binary_name: "test-binary"
-          extra_files: LICENSE README.md
